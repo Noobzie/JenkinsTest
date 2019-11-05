@@ -7,3 +7,7 @@ Install and configure jenkins: https://computingforgeeks.com/how-to-install-and-
 
 Forward port via service (no router needed) use command: ngrok http 8090
 and then copy the output link to the gihub webhook so it looks like: https://039459a3.ngrok.io/github-webhook/
+
+Startup project: pm2 start app.js 
+Check if the test runs: mocha
+push to repo and jenkins should also be able to run the test
